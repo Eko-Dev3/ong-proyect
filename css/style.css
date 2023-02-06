@@ -8844,6 +8844,7 @@ img {
 
 .cause-block-three h4 a {
 	color: var(--dark-color);
+	text-transform: uppercase;
 }
 
 .cause-block-three .text {
