@@ -9082,6 +9082,7 @@ img {
 	position: relative;
 	overflow: hidden;
 	border-radius: 6px;
+	object-fit: cover;
 }
 
 .project-block-one .image:before {
@@ -9104,6 +9105,8 @@ img {
 	-webkit-transition-delay: .3s;
 	     -o-transition-delay: .3s;
 	        transition-delay: .3s;
+			
+			
 }
 
 .project-block-one .inner-box:hover .image:before {
@@ -9114,6 +9117,8 @@ img {
 
 .project-block-one .image img {
 	width: 100%;
+	height: 300px;
+	object-fit: cover;
 }
 
 .project-block-one .image .icon-box {
